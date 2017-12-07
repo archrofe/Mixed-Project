@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d6de7fb96d8f68744a5f5f8faca3533c
+timeCreated: 1505434719
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Saturday Nights Personal Use
+  fontNames:
+  - Saturday Nights Personal Use
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
