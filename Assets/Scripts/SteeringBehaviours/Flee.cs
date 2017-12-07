@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GGL;
 
 namespace AI
 {
@@ -34,13 +33,6 @@ namespace AI
                 // force = desiredForce - owner.velocity
                 force = desiredForce - owner.velocity;
             }
-
-            #region GizmosGL
-            GizmosGL.color = Color.red;
-            GizmosGL.AddLine(transform.position, transform.position + desiredForce, .25f, .25f);
-            GizmosGL.color = Color.blue;
-            GizmosGL.AddLine(transform.position, transform.position + force, .25f, .25f);
-            #endregion
 
             // return force
             return force;
